@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gameback1"
+    tools:context="com.example.androidtetris.Homepage">
+    <ImageView
+        android:id="@+id/log"
+        android:layout_centerHorizontal="true"
+
+        android:layout_height="180dp"
+        android:layout_width="300dp"
+        android:src="@drawable/logo1"
+        />
+    <ImageView
+        android:id="@+id/startGame"
+        android:layout_centerInParent="true"
+        android:layout_height="180dp"
+        android:layout_width="150dp"
+        android:src="@drawable/play"
+        />
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/palyer_rank"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="@drawable/settingbutton1"
+            android:text="@string/Rank"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/palyer_again"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="@drawable/settingbutton1"
+            android:text="@string/PlayAgain"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/palyer_help"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="@drawable/settingbutton1"
+            android:text="@string/PlayHelp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

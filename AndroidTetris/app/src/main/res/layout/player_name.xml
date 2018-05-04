@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gameback1">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/AccountCredits"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/player_score"
+                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/UserNickname"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/name"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:hint="@string/Enter"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/back_homepage"
+            android:background="@drawable/button_1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/Back"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/savename"
+            android:background="@drawable/button_1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/Save"
+            android:layout_weight="1"
+            />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

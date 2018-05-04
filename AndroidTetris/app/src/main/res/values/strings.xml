@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">俄罗斯方块</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="Rank">排行榜</string>
+    <string name="PlayAgain">继续游戏</string>
+    <string name="PlayHelp">帮助</string>
+    <string name="CurrentTime">当前时间：</string>
+    <string name="GameTime">游戏时间：</string>
+    <string name="GameScore">游戏得分：</string>
+    <string name="Integral">积分：</string>
+    <string name="UploadScore">上传得分</string>
+    <string name="TryAgain">再来一次</string>
+    <string name="AccountCredits">用户积分：</string>
+    <string name="UserNickname">用户昵称：</string>
+    <string name="Enter">请输入用户名</string>
+    <string name="Back">返回</string>
+    <string name="Save">保存</string>
+    <string name="Determine">确定</string>
+    <string name="WriteOff">注销</string>
+
+</resources>

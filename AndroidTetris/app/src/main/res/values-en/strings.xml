@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tetris</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="Rank">ranking</string>
+    <string name="PlayAgain">Play Again</string>
+    <string name="PlayHelp">Help</string>
+    <string name="CurrentTime">CurrentTime :</string>
+    <string name="GameTime">Game Time :</string>
+    <string name="GameScore">Game Score :</string>
+    <string name="Integral">Integral:</string>
+    <string name="UploadScore">Upload Score</string>
+    <string name="TryAgain">Try Again</string>
+    <string name="AccountCredits">Account Credits :</string>
+    <string name="UserNickname">User Nickname :</string>
+    <string name="Enter">Please Enter PlayerName</string>
+    <string name="Back">Back</string>
+    <string name="Save">Save</string>
+    <string name="Determine">Determine</string>
+    <string name="WriteOff">Write Off</string>
+
+
+</resources>
